@@ -141,6 +141,9 @@ header {
     border-bottom: 2px dashed white;
 }
 
-.last.div {
-    
+.last-div {
+   background-color: aqua;
+   width: 0 auto;
+   height: 50px;
+    margin: 0px 350px;
 }
