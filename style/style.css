@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  background-color: aqua;
+  padding: 0 350px;
+}
+
+.container {
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+.border {
+  border: 1px dashed black;
+  width: 25%;
+}
+
+.border-2 {
+  border: 1px dashed black;
+  width: 50%;
+  text-align: center;
+}
+
+.border-3 {
+  border: 1px dashed black;
+  width: 25%;
+  text-align: end;
+}
+
+.color-pink {
+  background-color: pink;
+}
+
+.justify-evenly {
+}
+
+.space-between {
+  justify-content: space;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.section-blu {
+  height: 350px;
+  background-color: blue;
+}
+
+.section-white {
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
