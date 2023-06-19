@@ -63,9 +63,9 @@ header {
   justify-content: space;
 } */
 
-/* .align-center {
-  align-items: center;
-} */
+.align-content {
+  align-content: center;
+}
 
 .section-blu {
   height: 350px;
@@ -80,6 +80,19 @@ header {
 .section-lightgray {
     background-color: lightgray;
     height: 350px;
+}
+
+.section-black {
+    background-color: black;
+    height: 400px;
+
+    
+
+}
+
+.section-black-2 {
+    background-color: black;
+    height: 150px;
 }
 
 .last-section {
@@ -105,4 +118,29 @@ header {
 
 .padding-350 {
     padding: 350px;
+}
+
+
+
+
+.first-column {
+    height: 350px;
+    width: 30%;
+    background-color: pink;
+    border: 1px dashed white;
+}
+
+.rest-column {
+    height: 350px;
+    width: 17.5%;
+    background-color: lightblue;
+    border: 1px dashed white;
+}
+
+.border-bottom {
+    border-bottom: 2px dashed white;
+}
+
+.last.div {
+    
 }
