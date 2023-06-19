@@ -17,6 +17,19 @@ header {
   background-color: pink;
 }
 
+.container-div-1 {
+    width: 70%;
+    height: 250px;
+    background-color: lightblue;
+}
+
+.container-div-2{
+    width: 30%;
+    height: 250px;
+    background-color: pink;
+}
+
+
 .border {
   border: 1px dashed black;
   width: 25%;
@@ -35,19 +48,24 @@ header {
 }
 
 .color-pink {
-  background-color: pink;
+  background-color: rgb(212, 128, 142);
+
 }
 
-.justify-evenly {
+.color-yellow {
+    background-color: yellow;
 }
 
-.space-between {
+/* .justify-evenly {
+} */
+
+/* .space-between {
   justify-content: space;
-}
+} */
 
-.align-center {
+/* .align-center {
   align-items: center;
-}
+} */
 
 .section-blu {
   height: 350px;
@@ -56,6 +74,24 @@ header {
 
 .section-white {
   background-color: white;
+  height: 350px;
+}
+
+.section-lightgray {
+    background-color: lightgray;
+    height: 350px;
+}
+
+.last-section {
+    height: 650px;
+    background-color: lightgray;
+    padding: 0 350px;
+}
+
+.green {
+    background-color: green;
+    height: 500px;
+  
 }
 
 .flex {
@@ -65,4 +101,8 @@ header {
 .flex-column {
   flex-direction: column;
   justify-content: center;
+}
+
+.padding-350 {
+    padding: 350px;
 }
